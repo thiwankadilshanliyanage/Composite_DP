@@ -20,6 +20,10 @@ abstract class AbstractComposite{
     public abstract void method1();
     
 }
+
+
+
+
 class Leaf extends AbstractComposite{
 
     @Override
@@ -28,6 +32,9 @@ class Leaf extends AbstractComposite{
     }
     
 }
+
+
+
 class Composite extends AbstractComposite{
    
     ArrayList<AbstractComposite> compositeList = new ArrayList<>();
